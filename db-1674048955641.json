@@ -1,0 +1,60 @@
+{
+  "catalog": [
+    {
+      "id": 1,
+      "title": "AirPods (2nd generation)",
+      "price": 135,
+      "image": "https://www.istore.kg/media/products/AirPods-1.webp",
+      "category": "Headphones"
+    },
+    {
+      "id": 2,
+      "title": "AirPods Max",
+      "price": 590,
+      "image": "https://www.istore.kg/media/products/AirPods-Max-Blue.webp",
+      "category": "Headphones"
+    },
+    {
+      "id": 3,
+      "title": "AirPods Pro (2nd generation)",
+      "price": 260,
+      "image": "https://www.istore.kg/media/products/MQD83_AV2_LZdu7LV.webp",
+      "category": "Headphones"
+    },
+    {
+      "id": 4,
+      "title": "AirPods (3rd generation)",
+      "price": 190,
+      "image": "https://www.istore.kg/media/products/MME73_AV2_6BYTgDV.webp",
+      "category": "Headphones"
+    },
+    {
+      "id": 5,
+      "title": "iPhone 14 Pro Max",
+      "price": 1480,
+      "image": "https://www.istore.kg/media/products/iphone-14-pro-finish-select-202209-6-7inch-spaceblack_Qjv0Azl.webp",
+      "category": "iphone"
+    },
+    {
+      "id": 6,
+      "title": "iPad Pro 12.9 (2022)",
+      "price": 1270,
+      "image": "https://www.istore.kg/media/products/ipad-pro-13-select-wifi-spacegray-202210.webp",
+      "category": "ipad"
+    },
+    {
+      "id": 7,
+      "title": "Watch Series 8",
+      "price": 1050,
+      "image": "https://www.istore.kg/media/products/ML7R3_VW_34FRwatch-41-stainless-gold-cell-8s_VW_34FR_WF_CO.webp",
+      "category": "watch"
+    },
+    {
+      "id": 8,
+      "title": "MacBook Pro 16",
+      "price": 3750,
+      "image": "https://www.istore.kg/media/products/Pro-16-M1-SP-US-1_RGWcLBN.webp",
+      "category": "mac"
+    }
+  ]
+}

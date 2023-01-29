@@ -1,0 +1,180 @@
+{
+  "catalog": [
+    {
+      "id": 1,
+      "title": "AirPods (2nd generation)",
+      "price": 135,
+      "image": "https://www.istore.kg/media/products/AirPods-1.webp",
+      "category": "Headphones",
+      "basket": false
+    },
+    {
+      "id": 2,
+      "title": "AirPods Max",
+      "price": 590,
+      "image": "https://www.istore.kg/media/products/AirPods-Max-Blue.webp",
+      "category": "Headphones",
+      "basket": false
+    },
+    {
+      "id": 3,
+      "title": "AirPods Pro (2nd generation)",
+      "price": 260,
+      "image": "https://www.istore.kg/media/products/MQD83_AV2_LZdu7LV.webp",
+      "category": "Headphones",
+      "basket": false
+    },
+    {
+      "id": 4,
+      "title": "AirPods (3rd generation)",
+      "price": 190,
+      "image": "https://www.istore.kg/media/products/MME73_AV2_6BYTgDV.webp",
+      "category": "Headphones",
+      "basket": false
+    },
+    {
+      "id": 5,
+      "title": "iPhone 14 Pro Max",
+      "price": 1480,
+      "image": "https://www.istore.kg/media/products/iphone-14-pro-finish-select-202209-6-7inch-spaceblack_Qjv0Azl.webp",
+      "category": "iphone",
+      "basket": false
+    },
+    {
+      "id": 6,
+      "title": "iPad Pro 12.9 (2022)",
+      "price": 1270,
+      "image": "https://www.istore.kg/media/products/ipad-pro-13-select-wifi-spacegray-202210.webp",
+      "category": "ipad",
+      "basket": false
+    },
+    {
+      "id": 7,
+      "title": "Watch Series 8",
+      "price": 1050,
+      "image": "https://www.istore.kg/media/products/ML7R3_VW_34FRwatch-41-stainless-gold-cell-8s_VW_34FR_WF_CO.webp",
+      "category": "watch",
+      "basket": false
+    },
+    {
+      "id": 8,
+      "title": "MacBook Pro 16",
+      "price": 3750,
+      "image": "https://www.istore.kg/media/products/Pro-16-M1-SP-US-1_RGWcLBN.webp",
+      "category": "mac",
+      "basket": false
+    },
+    {
+      "id": 9,
+      "title": "iPhone 14 Plus",
+      "price": 990,
+      "image": "https://www.istore.kg/media/products/iphone-14-finish-select-202209-6-7inch-blue.webp",
+      "category": "iphone",
+      "basket": false
+    },
+    {
+      "id": 10,
+      "title": "iPhone 14",
+      "price": 890,
+      "image": "https://www.istore.kg/media/products/iphone-14-finish-select-202209-6-1inch-purple.webp",
+      "category": "iphone",
+      "basket": false
+    },
+    {
+      "id": 11,
+      "title": "iPhone 13 Pro",
+      "price": 1180,
+      "image": "https://www.istore.kg/media/products/iphone-13-pro-blue-select.webp",
+      "category": "iphone",
+      "basket": false
+    },
+    {
+      "id": 12,
+      "title": "iPad 10.9\" (2022)",
+      "price": 520,
+      "image": "https://www.istore.kg/media/products/ipad-2022-hero-yellow-wifi-select.webp",
+      "category": "ipad",
+      "basket": false
+    },
+    {
+      "id": 13,
+      "title": "MacBook Pro 14",
+      "price": 2800,
+      "image": "https://www.istore.kg/media/products/Pro-14-M1-SP-US-1_5LEP3wl.webp",
+      "category": "mac",
+      "basket": false
+    },
+    {
+      "title": "iPad Pro 11\" (2022)",
+      "price": "920",
+      "image": "https://www.istore.kg/media/products/ipad-pro-11-select-wifi-silver-202210.webp",
+      "category": "ipad",
+      "id": 14,
+      "basket": false
+    },
+    {
+      "title": "iPad mini 8.3\" (2021)",
+      "price": "520",
+      "image": "https://www.istore.kg/media/products/iPad-mini-WiFi-Purple.webp",
+      "category": "ipad",
+      "id": 15,
+      "basket": false
+    },
+    {
+      "title": "iPad 10.2\" (2021)",
+      "price": "380",
+      "image": "https://www.istore.kg/media/products/iPad-9-WiFi-Silver.webp",
+      "category": "ipad",
+      "id": 16,
+      "basket": false
+    },
+    {
+      "title": "iPhone 11",
+      "price": "499",
+      "image": "https://www.istore.kg/media/products/11-black_qdkqJZQ.webp",
+      "category": "iphone",
+      "id": 17,
+      "basket": false
+    },
+    {
+      "title": "iPhone 13 mini",
+      "price": "740",
+      "image": "https://www.istore.kg/media/products/iphone-13-mini-product-red-select-2021.webp",
+      "category": "iphone",
+      "id": 18,
+      "basket": false
+    },
+    {
+      "title": "Watch Ultra Titanium",
+      "price": "875",
+      "image": "https://www.istore.kg/media/products/MQDY3ref_VW_34FRwatch-49-titanium-ultra_VW_34FR_WF_COwatch-face-49-alpine-ultr_QtsmsKr.webp",
+      "category": "watch",
+      "id": 19,
+      "basket": false
+    },
+    {
+      "title": "AirPods Max",
+      "price": "590",
+      "image": "https://www.istore.kg/media/products/AirPods-Max-Pink.webp",
+      "category": "Headphones",
+      "basket": false,
+      "id": 20
+    },
+    {
+      "title": "MacBook Air 13.6",
+      "price": "2170",
+      "image": "https://www.istore.kg/media/products/macbook-air-midnight-gallery1-20220606_GbIUyse.webp",
+      "category": "mac",
+      "basket": false,
+      "id": 21
+    },
+    {
+      "title": "MacBook Pro 13\"",
+      "price": "1380",
+      "image": "https://www.istore.kg/media/products/mbp-spacegray-gallery1-202206.webp",
+      "category": "mac",
+      "basket": false,
+      "id": 22
+    }
+  ]
+}

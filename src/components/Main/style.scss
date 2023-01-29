@@ -1,0 +1,232 @@
+.main{
+  padding: 60px 50px;
+  background: #ffffff;
+
+  &__headerBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__container{
+    width: 100%;
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+  }
+
+  &__item{
+    width: calc(25% - 37.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    &-title{
+      margin-top: 30px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+    }
+    &-img{
+      width: 70%;
+    }
+
+    &-price{
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+      color: #515759;
+      margin-top: 4px;
+    }
+
+    &-buy{
+      background: #1890FF;
+      border-radius: 4px;
+      width: 56px;
+      height: 24px;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 20px;
+      color: #FFFFFF;
+      border: none;
+      cursor: pointer;
+    }
+
+    &-buy.delete{
+      background: #c5403e;
+    }
+
+    &-buy.add{
+      font-size: 15px;
+      margin: 15px auto 0;
+    }
+  }
+
+  &__input{
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 200px;
+    padding: 10px;
+    outline: none;
+    text-align: right;
+    font-size: 20px;
+  }
+
+  &__more{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #1890FF;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
+  &__more.disabled{
+    color: gray;
+  }
+
+  &__newProduct{
+    background: #1890FF;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  &__overlay{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all .5s ease-in-out;
+    &.animated{
+      visibility: hidden;
+      opacity: 0;
+
+      &.show{
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__modal{
+    width: 400px;
+    background: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+
+    &-close{
+      height:20px;
+      width: 20px;
+      cursor: pointer;
+      margin-left: 95%;
+    }
+
+    &-title{
+      text-align: center;
+    }
+
+    &-block{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 20px 0 auto;
+      row-gap: 15px;
+    }
+
+    &-input{
+      border: none;
+      border-bottom: 2px solid gray;
+      width: 290px;
+      padding: 10px;
+      outline: none;
+      font-size: 20px;
+      &.number::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+    }
+  }
+
+  &__basketOverlay{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all .5s ease-in-out;
+    &.animated{
+      visibility: hidden;
+      opacity: 0;
+
+      &.show{
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+  &__basket{
+    width: 400px;
+    background: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+
+    &-title{
+      text-align: center;
+    }
+
+    &-totalBox{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 15px;
+    }
+
+    &-total{
+      font-size: 15px;
+    }
+
+    &-item{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 15px;
+    }
+  }
+
+  &__select{
+    background: #1890FF99;
+    color:white;
+    width: 150px;
+    height: 30px;
+    padding: 5px 5px;
+    border: none;
+  }
+}
